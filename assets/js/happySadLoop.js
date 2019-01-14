@@ -10,7 +10,7 @@
     }
 }*/
 
-// Version two 
+// Version one 
 
 for (n = 1; n <= 100; n++) {
     Number.isInteger(n / 3) && Number.isInteger(n / 5) ? console.log(`Happy and Sad (${n})`) :
@@ -19,7 +19,7 @@ for (n = 1; n <= 100; n++) {
         console.log(n);
 }
 
-// Version two with lots of variables 
+// Version two - less DRY with lots of variables 
 let emotionOutput;
 for (n = 1; n <= 100; n++) {
     let divBy3 = n / 3;
