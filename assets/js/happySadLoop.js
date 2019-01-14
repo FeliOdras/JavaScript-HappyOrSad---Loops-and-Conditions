@@ -11,8 +11,8 @@
 }*/
 
 for (n = 1; n <= 100; n++) {
-    Number.isInteger(n / 3) && Number.isInteger(n / 5) ? console.log('Happy and Sad') :
-        Number.isInteger(n / 3) ? console.log('Happy') :
-        Number.isInteger(n / 5) ? console.log('Sad') :
+    Number.isInteger(n / 3) && Number.isInteger(n / 5) ? console.log(`Happy and Sad (${n})`) :
+        Number.isInteger(n / 3) ? console.log(`Happy (${n})`) :
+        Number.isInteger(n / 5) ? console.log(`Sad (${n})`) :
         console.log(n);
 }
