@@ -10,13 +10,13 @@
     }
 }*/
 
-// Version one
+// Version one with lots of variables 
 let emotionOutput;
 let n = 1;
 let divBy3 = n / 3;
 let divBy5 = n / 5;
-for (n = 1; n <= 100; n++) {
 
+for (n = 1; n <= 100; n++) {
     Number.isInteger(divBy3) && Number.isInteger(divBy5) ? emotionOutput = 'Happy and sad' :
         Number.isInteger(divBy3) ? emotionOutput = 'Happy' :
         Number.isInteger(divBy5) ? emotionOutput = 'Sad' :
